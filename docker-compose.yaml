@@ -7,7 +7,7 @@ services:
       - '3000:3000/tcp'
     environment:
       # Environment variables from https://waha.devlike.pro/docs/how-to/config/
-      - WHATSAPP_HOOK_URL=https://n8n.op-madrasah.biz.id/webhook-test/whatsapp-http-api
+      - WHATSAPP_HOOK_URL=https://n8n.op-madrasah.biz.id/webhook/whatsapp-http-api
       - WHATSAPP_HOOK_EVENTS=message
       - WHATSAPP_DEFAULT_ENGINE=WEBJS
     restart: always
